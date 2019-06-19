@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		390BD752229777CD005827F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 390BD751229777CD005827F0 /* AppDelegate.m */; };
-		390BD755229777CD005827F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390BD754229777CD005827F0 /* ViewController.m */; };
 		390BD758229777CD005827F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390BD756229777CD005827F0 /* Main.storyboard */; };
 		390BD75A229777D0005827F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390BD759229777D0005827F0 /* Assets.xcassets */; };
 		390BD75D229777D0005827F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390BD75B229777D0005827F0 /* LaunchScreen.storyboard */; };
 		390BD760229777D0005827F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 390BD75F229777D0005827F0 /* main.m */; };
 		390BD76A229777D1005827F0 /* myShoppingListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390BD769229777D1005827F0 /* myShoppingListTests.m */; };
 		390BD775229777D1005827F0 /* myShoppingListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390BD774229777D1005827F0 /* myShoppingListUITests.m */; };
+		391163A7229DDB2700E93967 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391163A6229DDB2700E93967 /* ListViewController.m */; };
+		391163AA229DDDE500E93967 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391163A9229DDDE500E93967 /* detailViewController.m */; };
+		391163AD229DF42A00E93967 /* itemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 391163AC229DF42A00E93967 /* itemCell.m */; };
+		391163B0229E096900E93967 /* recordedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391163AF229E096900E93967 /* recordedViewController.m */; };
+		39AF760922A9D455001E72C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF760822A9D455001E72C9 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		390BD74D229777CD005827F0 /* myShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		390BD750229777CD005827F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		390BD751229777CD005827F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		390BD753229777CD005827F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		390BD754229777CD005827F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		390BD757229777CD005827F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		390BD759229777D0005827F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		390BD75C229777D0005827F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		390BD770229777D1005827F0 /* myShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		390BD774229777D1005827F0 /* myShoppingListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myShoppingListUITests.m; sourceTree = "<group>"; };
 		390BD776229777D1005827F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391163A5229DDB2700E93967 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		391163A6229DDB2700E93967 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		391163A8229DDDE500E93967 /* detailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		391163A9229DDDE500E93967 /* detailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		391163AB229DF42A00E93967 /* itemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemCell.h; sourceTree = "<group>"; };
+		391163AC229DF42A00E93967 /* itemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemCell.m; sourceTree = "<group>"; };
+		391163AE229E096900E93967 /* recordedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = recordedViewController.h; sourceTree = "<group>"; };
+		391163AF229E096900E93967 /* recordedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recordedViewController.m; sourceTree = "<group>"; };
+		39AF760722A9D455001E72C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39AF760822A9D455001E72C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +115,21 @@
 			children = (
 				390BD750229777CD005827F0 /* AppDelegate.h */,
 				390BD751229777CD005827F0 /* AppDelegate.m */,
-				390BD753229777CD005827F0 /* ViewController.h */,
-				390BD754229777CD005827F0 /* ViewController.m */,
 				390BD756229777CD005827F0 /* Main.storyboard */,
-				390BD759229777D0005827F0 /* Assets.xcassets */,
 				390BD75B229777D0005827F0 /* LaunchScreen.storyboard */,
+				390BD759229777D0005827F0 /* Assets.xcassets */,
 				390BD75E229777D0005827F0 /* Info.plist */,
 				390BD75F229777D0005827F0 /* main.m */,
+				391163A5229DDB2700E93967 /* ListViewController.h */,
+				391163A6229DDB2700E93967 /* ListViewController.m */,
+				391163A8229DDDE500E93967 /* detailViewController.h */,
+				391163A9229DDDE500E93967 /* detailViewController.m */,
+				391163AB229DF42A00E93967 /* itemCell.h */,
+				391163AC229DF42A00E93967 /* itemCell.m */,
+				391163AE229E096900E93967 /* recordedViewController.h */,
+				391163AF229E096900E93967 /* recordedViewController.m */,
+				39AF760722A9D455001E72C9 /* ViewController.h */,
+				39AF760822A9D455001E72C9 /* ViewController.m */,
 			);
 			path = myShoppingList;
 			sourceTree = "<group>";
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				390BD755229777CD005827F0 /* ViewController.m in Sources */,
+				39AF760922A9D455001E72C9 /* ViewController.m in Sources */,
 				390BD760229777D0005827F0 /* main.m in Sources */,
 				390BD752229777CD005827F0 /* AppDelegate.m in Sources */,
+				391163AD229DF42A00E93967 /* itemCell.m in Sources */,
+				391163A7229DDB2700E93967 /* ListViewController.m in Sources */,
+				391163B0229E096900E93967 /* recordedViewController.m in Sources */,
+				391163AA229DDDE500E93967 /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  recordedViewController.h
 //  myShoppingList
 //
-//  Created by LalmayaChhantyal on 7/6/19.
+//  Created by LalmayaChhantyal on 29/5/19.
 //  Copyright © 2019 LalmayaChhantyal. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
+@interface recordedViewController : UIViewController<UITableViewDataSource,UITabBarDelegate>
 
 @end
 
